@@ -88,7 +88,7 @@ a:before {
 @media (max-aspect-ratio: 16/9) {
   .back-video {
     width: auto;
-    height:100%;
+    height:850px;
   }
 } 
 
@@ -108,6 +108,3 @@ a:before {
 @media only screen and (min-width: 900px) {
  
 }
-
-
-
