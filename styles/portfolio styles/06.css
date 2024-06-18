@@ -1,0 +1,64 @@
+.project3-b {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background: white;
+  box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.5);
+}
+
+.project3-b:before,
+.project3-b:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  transition: 1s;
+  z-index: -1;
+  border: solid wheat;
+}
+
+.project3-b:hover::before {
+  transform: rotate(20deg);
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+}
+
+.project3-b:hover::after {
+  transform: rotate(10deg);
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+}
+
+.imgBox {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  bottom: 10px;
+  right: 10px;
+  background: #222;
+  transition: 1s;
+  z-index: 2;
+}
+
+.project3-b:hover .imgBox {
+  bottom: 80px;
+}
+
+.details {
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  height: 60px;
+  text-align: center;
+}
+
+.imgBox img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
