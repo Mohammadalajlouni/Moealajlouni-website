@@ -49,7 +49,7 @@ section {
 
 .intro p {
   font-size: 22px;
-  max-width: 600px;
+  /* max-width: 600px; */
   margin: 0 auto;
   text-align: justify;
 }
@@ -71,7 +71,8 @@ section {
 }
 
 .profile .bio {
-  max-width: 600px;
+  /* max-width: 600px; */
+  text-align: justify;
 }
 
 .profile .bio h2 {
@@ -86,7 +87,7 @@ section {
 /* Highlights Section */
 .highlights {
   text-align: left;
-  max-width: 800px;
+  /* max-width: 800px; */
   margin: 0 auto;
 }
 
@@ -106,6 +107,7 @@ section {
 
 .highlight-item p {
   font-size: 18px;
+  text-align: justify;
 }
 
 /* Animations */
