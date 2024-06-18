@@ -1,4 +1,81 @@
+.header2 .articles-underline {
+  text-decoration: underline;
+}
+
+.articles-container {
+  padding: 0;
+  margin: 0;
+  height: auto;
+  box-sizing: border-box;
+  background: crimson;
+}
+
+#accordion {
+  margin: 130px auto 50px auto;
+  width: 600px;
+  padding: 0;
+}
+
+
+#accordion li {
+  list-style: none;
+  width: 100%;
+  margin-bottom: 10px;
+  background: white;
+  color: black;
+  padding: 10px;
+}
+
+#accordion li label {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+  color: dodgerblue;
+  cursor: pointer;
+}
+
+#accordion li label span {
+  transform: rotate(90deg);
+  font-size: 22px;
+  color: dodgerblue;
+}
+
+#accordion label + input[type="radio"] {
+  display: none;
+}
+
+#accordion .content {
+  padding: 0;
+  line-height: 26px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s;
+}
+
+#accordion label + input[type="radio"]:checked + .content {
+  max-height: 400px;
+}
+
+
+
 .articles-footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: antiquewhite;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  height: auto;
+  box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.5);
+}
+
+.thankyou , .copy-right {
+  text-align: center;
+  padding: 0;
 }
