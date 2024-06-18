@@ -1,0 +1,140 @@
+.header2 .home-underline {
+  text-decoration: underline;
+}
+
+/* Section Styles */
+section {
+  padding: 100px 20px;
+  text-align: center;
+  color: white;
+  margin-top: 100px;
+  margin-bottom: -10px; /* Adjust according to the height of the navigation bar */
+}
+
+#home {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+/* Content Wrapper */
+.content {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+  text-align: left;
+  color: white;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.5);
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Intro Section */
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.intro p {
+  font-size: 22px;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+/* Profile Section */
+.profile {
+  display: flex;
+  align-items: center;
+  margin: 50px 0;
+  flex-wrap: wrap;
+}
+
+.profile img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+  object-fit: cover;
+}
+
+.profile .bio {
+  max-width: 600px;
+}
+
+.profile .bio h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.profile .bio p {
+  font-size: 18px;
+}
+
+/* Highlights Section */
+.highlights {
+  text-align: left;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.highlights h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.highlight-item {
+  margin-bottom: 20px;
+}
+
+.highlight-item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.highlight-item p {
+  font-size: 18px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: antiquewhite;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  height: auto;
+  box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.5);
+}
+
+.thankyou , .copy-right {
+  text-align: center;
+  padding: 0;
+}
+
