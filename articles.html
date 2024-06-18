@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/articles.css">
   </head>
-  <body>
-     <header>
+  <body class="articles-container">
+    <header>
       <h1>Welcome to My Personal Website</h1>
           <div class="header2">
             <nav>
@@ -18,21 +18,113 @@
                   <li><a href="index.html">Home</a></li>
                   <li><a href="cv.html" target="_blank">CV</a></li>
                   <li><a href="portfolio.html">Portfolio</a></li>
-                  <li><a href="articles.html">Articles</a></li>
+                  <li><a class="articles-underline" href="articles.html">Articles</a></li>
                   <li><a href="contact.html">Contact</a></li>
               </ul>
             </nav>
           </div>
-          <img class="my-photo" src="images/profile-picture.jpeg">
+          <!-- <img class="my-photo" src="images/profile-picture.jpeg"> -->
       </header>
-
- 
-
-  <footer class="articles-footer">
+    
+    <ul id="accordion">
+        <li>
+          <label for="first">What is HTML? <span>&#x3e;</span></label>
+          <input type="radio" name="accordion" id="first" checked />
+          <div class="content">
+            <p>
+              The HyperText Markup Language or HTML is the standard markup
+              language for documents designed to be displayed in a web browser. It
+              can be assisted by technologies such as Cascading Style Sheets and
+              scripting languages such as JavaScript.
+            </p>
+          </div>
+        </li>
+        <li>
+          <label for="second">What is CSS? <span>&#x3e;</span></label>
+          <input type="radio" name="accordion" id="second" />
+          <div class="content">
+            <p>
+              Cascading Style Sheets is a style sheet language used for describing
+              the presentation of a document written in a markup language such as
+              HTML. CSS is a cornerstone technology of the World Wide Web,
+              alongside HTML and JavaScript.
+            </p>
+          </div>
+        </li>
+        <li>
+          <label for="third">What is JavaScript? <span>&#x3e;</span></label>
+          <input type="radio" name="accordion" id="third" />
+          <div class="content">
+            <p>
+              JavaScript, often abbreviated JS, is a programming language that is
+              one of the core technologies of the World Wide Web, alongside HTML
+              and CSS. Over 97% of websites use JavaScript on the client side for
+              web page behavior, often incorporating third-party libraries.
+            </p>
+          </div>
+        </li>
+        <li>
+          <label for="fourth">What is React? <span>&#x3e;</span></label>
+          <input type="radio" name="accordion" id="fourth" />
+          <div class="content">
+            <p>
+              React is a free and open-source front-end JavaScript library for
+              building user interfaces based on UI components. It is maintained by
+              Meta and a community of individual developers and companies.
+            </p>
+          </div>
+        </li>
+        <li>
+          <label for="fifth">What is Node.js? <span>&#x3e;</span></label>
+          <input type="radio" name="accordion" id="fifth" />
+          <div class="content">
+            <p>
+              Node.js is an open-source, cross-platform, back-end JavaScript
+              runtime environment that runs on the V8 engine and executes
+              JavaScript code outside a web browser
+            </p>
+          </div>
+        </li>
+        <li>
+          <label for="sixth">What is Node.js? <span>&#x3e;</span></label>
+          <input type="radio" name="accordion" id="sixth" />
+          <div class="content">
+            <p>
+              Node.js is an open-source, cross-platform, back-end JavaScript
+              runtime environment that runs on the V8 engine and executes
+              JavaScript code outside a web browser
+            </p>
+          </div>
+        </li>
+        <li>
+          <label for="seventh">What is Node.js? <span>&#x3e;</span></label>
+          <input type="radio" name="accordion" id="seventh" />
+          <div class="content">
+            <p>
+              Node.js is an open-source, cross-platform, back-end JavaScript
+              runtime environment that runs on the V8 engine and executes
+              JavaScript code outside a web browser
+            </p>
+          </div>
+        </li>
+        <li>
+          <label for="eightth">What is Node.js? <span>&#x3e;</span></label>
+          <input type="radio" name="accordion" id="eightth" />
+          <div class="content">
+            <p>
+              Node.js is an open-source, cross-platform, back-end JavaScript
+              runtime environment that runs on the V8 engine and executes
+              JavaScript code outside a web browser
+            </p>
+          </div>
+        </li>
+      </ul>
+      
+    <footer class="articles-footer">
     <p class="thankyou">Thank you for visiting my website.
       Feel free to explore my portfolio and contact me for any inquiries or collaboration opportunities.</p>
     <p class="copy-right">&copy; 2024 Mohammad Alajlouni</p>
-  </footer>
+       </footer>
 
   </body>
 </html>
