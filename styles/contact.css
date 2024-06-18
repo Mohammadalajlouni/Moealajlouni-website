@@ -1,7 +1,10 @@
+.header2 .contact-underline {
+  text-decoration: underline;
+}
 
 .contact-container {
-  margin-top: 200px;
-  margin-bottom: 0;
+  margin-top: 160px;
+  margin-bottom: 50px;
   height: auto;
 }
 
@@ -41,18 +44,19 @@
   width: 100%;
   padding: 10px 0px 10px 0px;
   margin-bottom: 15px;
-  border: 1px solid rgb(204, 204, 204);
+  border: 1px solid white;
   border-radius: 5px;
 }
 
 .contact-form input,
 .contact-form textarea  {
-  background-color: rgb(242, 242, 242);
+  background-color: white;
   font-size: 18px;
+  padding-left: 5px;
 }
 
 .contact-form button {
-  background-color: rgb(242, 242, 242);
+  background-color: white;
   color: black;
   padding: 10px 20px;
   border: none;
@@ -66,10 +70,20 @@
 
 
 .contact-footer {
-  margin-top: 0;
-  margin-bottom: 0;
-  position: fixed;
+  position: relative;
   bottom: 0;
-  right: 0;
   left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: antiquewhite;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  height: auto;
+  box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.5);
+}
+
+.thankyou , .copy-right {
+  text-align: center;
+  padding: 0;
 }
