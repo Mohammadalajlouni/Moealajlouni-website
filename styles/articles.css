@@ -2,12 +2,15 @@
   text-decoration: underline;
 }
 
-.articles-container {
-  padding: 40px 0;
-  margin: 55px 0;
-  height: 100%;
-  box-sizing: border-box;
+body {
   background: rgba(0, 0, 0, 0.7);
+  height: 100%;
+}
+
+.articles-container {
+  position: relative;
+  top: 50px;
+  box-sizing: border-box;
 }
 
 #accordion {
@@ -62,7 +65,7 @@
 
 
 .articles-footer {
-  position: fixed;
+  position: relative;
   bottom: 0;
   left: 0;
   right: 0;
