@@ -4,11 +4,11 @@
 
 /* Section Styles */
 section {
-  padding: 100px 20px;
+  padding: 80px 20px;
   text-align: center;
   color: white;
-  margin-top: 100px;
-  margin-bottom: -10px; /* Adjust according to the height of the navigation bar */
+  margin-top: 55px;
+  margin-bottom: -55px; /* Adjust according to the height of the navigation bar */
 }
 
 #home {
