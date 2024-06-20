@@ -12,15 +12,14 @@
     top: 50px;
     padding: 0;
     margin: 0;
-    height: 100%;
     box-sizing: border-box;
-    background: #fff;
   }
   
   #accordion {
     margin: 130px auto 50px auto;
     width: 600px;
     padding: 0;
+    height: 100vh;
   }
   
   
