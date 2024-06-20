@@ -42,8 +42,12 @@
 
 .project3-a-content p {
   line-height: 15px;
-  padding: 30px 30px;
+  width:80%;
+  padding: 20px 0 20px 15%;
+  height: 250px;
+  overflow:scroll;
   margin-bottom: 10px;
+  
 }
 
 .project3-a-content a {
@@ -55,6 +59,6 @@
   margin-left: 30px;
 }
 
-.project3-a:hover .project3-a-content  {
+.project3-a:hover .project3-a-content p {
   color: gold;
 }
