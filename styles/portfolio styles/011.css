@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.project6 {
+  position: relative;
+  height: 400px;
+  width: 100%;
+  font-family: sans-serif;
+  background: #000;
+  color: #fff;
+  box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+}
+
+.div-scroll {
+  overflow: scroll;
+  height: 100%;
+  padding: 15px;
+}
+
+
+.project6 section {
+  border: 2px solid white;
+  margin: 10px 0;
+  padding: 10px 10px;
+  width:100%;
+  overflow:scroll;
+}
+
+.project6 section h1 {
+  padding: 20px 0;
+}
+
+.project6 section p {
+  text-align: justify;
+  line-height: 15px;
+  padding: 10px 0;
+  height: 200px;
+}
+
+.scroll-indicator {
+  height: 5px;
+  width: calc(100% - 6em);
+  position: absolute;
+  top: 25px;
+  left: 3em;
+  border-radius: 3px;
+}
+
+.scroll-indicator .progress {
+  height: 100%;
+  width: 0;
+  border-radius: 3px;
+  /* https://www.grabient.com/ */
+  background: linear-gradient(30deg, #21d4fd, #b721ff);
+  transition: width 0.1s;
+}
