@@ -5,6 +5,7 @@
 }
 
 .project4-c {
+  position: relative;
   height: 400px;
   width: 100%;
   display: flex;
